@@ -5,8 +5,8 @@ export const ChoosingDaysTag = ({ data, onChangeDay }) => {
     <div>
       <label className="hidden font-bold lg:inline-block">5-Day Forecast</label>
       <div className="lg:mt-4">
-        <Tag className="min-h-[245px]">
-          <div className="flex flex-col gap-3 mt-4 lg:mt-0">
+        <Tag className="py-6 lg:py-4">
+          <div className="flex flex-col gap-3">
             {data.map((item, index) => (
               <div
                 key={index}
